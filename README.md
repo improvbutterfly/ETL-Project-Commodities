@@ -10,9 +10,9 @@ Commodities are economic goods that hold physical and functional value and have 
 <br>We will be 'ETL-ing' our data on the following commodities: **Precious Metals, Natural Gas, and Agriculture staples including Livestock and Crops.**</br>
 
 
-## Technical Report: 
+## Technical Report
 
-## Precious Metals
+## Precious Metals:
 "In America, the streets are paved in Gold!" - Anonymous
 <br># Precious Metals: :moneybag:
 <br>Precious metals like gold, silver, platinum and palladium prove to be dependable investments and hold industrial value so they are actively traded in global markets.</br>
