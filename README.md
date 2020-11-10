@@ -31,4 +31,4 @@ Sources: Quandl APIs
 ## Agriculture:
 "Agriculture is the most healthful, most useful and most noble employment of man." - George Washington. :corn:
 <br>"Once you kill a cow, you gotta make a burger." - Dean Koontz :cow2: </br> 
-<br>"We really owe a great deal to the rubber tree." - Mechai Viravaidya  :factory: </br>=
+<br>"We really owe a great deal to the rubber tree." - Mechai Viravaidya  :factory: </br>
