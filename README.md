@@ -1,4 +1,4 @@
-## ETL-Project: Extract Transform and Load --- Commodities
+## ETL-Project: Extract, Transform & Load --- Commodities
 ## By: The Git Pandas- Kelsey Cox, Stanley Tan, Dominica Corless, Jeremy Steele & Jeremy Jang
 
 For our ETL project, we decided to think literally and deeply about what data was best to **'Extract'** and **'Tranfsorm'**.
