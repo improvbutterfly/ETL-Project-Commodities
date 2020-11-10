@@ -1,5 +1,5 @@
 ## ETL-Project: Extract Transform and Load -Commodities
-## By: The Git Pandas- Kelsey Cox, Stanley Tan, Dominica Corless, Jeremy Steele and Jeremy Jang
+## By: The Git Pandas- Kelsey Cox, Stanley Tan, Dominica Corless, Jeremy Steele & Jeremy Jang
 
 For our ETL project, we decided to think literally and deeply about what data was best to **'Extract'** and **'Tranfsorm'**.
 <br>And what better time to salute the land of opportunity than election month? :metal: </br>
@@ -12,6 +12,7 @@ Commodities are economic goods that hold physical and functional value and have 
 
 ## Technical Report: 
 
+## Precious Metals
 "In America, the streets are paved in Gold!" - Anonymous
 <br># Precious Metals: :moneybag:
 <br>Precious metals like gold, silver, platinum and palladium prove to be dependable investments and hold industrial value so they are actively traded in global markets.</br>
@@ -24,10 +25,10 @@ Sources: Quandl APIs
 * https://www.quandl.com/data/LPPM/PLAT-Platinum-Fixing
 
 
-# Natural Gas:
+## Natural Gas:
 “Natural gas is a feedstock in basically every industrial process.” - Aubrey McClendon :fuelpump:
 
-# Agriculture:
+## Agriculture:
 "Agriculture is the most healthful, most useful and most noble employment of man." - George Washington. :corn:
 <br>"Once you kill a cow, you gotta make a burger." - Dean Koontz :cow2: </br> 
 <br>"We really owe a great deal to the rubber tree." - Mechai Viravaidya  :factory: </br>=
