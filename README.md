@@ -18,7 +18,7 @@ We chose to use a PostgreSQL database for our collected data.
 
 #### Entity Relationship Diagram
 ![ERD part 1](images/commodities_db_ERD_part1.png)
-![ERD part 2](images/commodities_db_ERD_part1.png)
+![ERD part 2](images/commodities_db_ERD_part2.png)
 
 ### Accessing and Graphing Data
 
