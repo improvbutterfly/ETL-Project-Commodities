@@ -12,6 +12,20 @@ Commodities are economic goods that hold physical and functional value and have 
 
 ## Technical Report
 
+### Database Design
+
+We chose to use a PostgreSQL database for our collected data.
+
+#### Entity Relationship Diagram
+![ERD part 1](images/commodities_db_ERD_part1.png)
+![ERD part 2](images/commodities_db_ERD_part2.png)
+
+### Accessing and Graphing Data
+
+![Reading from the database](images/database_read_palmoil_rubber.png)
+![Plotting Rubber and Palm Oil](images/palmoil_rubber.png)
+
+
 ## Precious Metals:
 "In America, the streets are paved in Gold!" - Anonymous
 <br># Precious Metals: :moneybag:
@@ -32,3 +46,12 @@ Sources: Quandl APIs
 "Agriculture is the most healthful, most useful and most noble employment of man." - George Washington. :corn:
 <br>"Once you kill a cow, you gotta make a burger." - Dean Koontz :cow2: </br> 
 <br>"We really owe a great deal to the rubber tree." - Mechai Viravaidya  :factory: </br>
+
+## Other Commodities
+
+Sources:
+* Palm Oil -
+<br>International Monetary Fund, Global price of Palm Oil [PPOILUSDM], retrieved from FRED, Federal Reserve Bank of St. Louis; [https://fred.stlouisfed.org/series/PPOILUSDM](https://fred.stlouisfed.org/series/PPOILUSDM), November 9, 2020.
+* Rubber -
+<br>International Monetary Fund, Global price of Rubber [PRUBBUSDM], retrieved from FRED, Federal Reserve Bank of St. Louis; [https://fred.stlouisfed.org/series/PRUBBUSDM](https://fred.stlouisfed.org/series/PRUBBUSDM), November 8, 2020.
+
