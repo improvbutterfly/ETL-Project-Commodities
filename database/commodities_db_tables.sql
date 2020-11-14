@@ -92,7 +92,7 @@ CREATE TABLE "live_cattle" (
      )
 );
 
-CREATE TABLE "live_hogs" (
+CREATE TABLE "lean_hogs" (
     "date" date   NOT NULL,
     "usd_per_lb" numeric   NOT NULL,
     CONSTRAINT "pk_live_hogs" PRIMARY KEY (
