@@ -1,4 +1,4 @@
-﻿# Metals
+﻿-- Metals
 
 CREATE TABLE "gold" (
     "date" date   NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE "palladium" (
      )
 );
 
-# Crops
+-- Crops
 
 CREATE TABLE "coffee" (
     "date" date   NOT NULL,
@@ -74,7 +74,7 @@ CREATE TABLE "cocoa" (
      )
 );
 
-# Livestock
+-- Livestock
 
 CREATE TABLE "feeder_cattle" (
     "date" date   NOT NULL,
@@ -100,7 +100,7 @@ CREATE TABLE "lean_hogs" (
      )
 );
 
-# Energy
+-- Energy
 
 CREATE TABLE "natural_gas" (
     "date" date   NOT NULL,
@@ -118,7 +118,7 @@ CREATE TABLE "crude_oil" (
      )
 );
 
-# Other commodities
+-- Other commodities
 
 CREATE TABLE "palm_oil" (
     "date" date   NOT NULL,
