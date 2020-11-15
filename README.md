@@ -11,7 +11,7 @@ Commodities are economic goods that hold physical and functional value and have 
 
 ## Obtaining Data 
 
-People obtained different data. We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the Q[Quandl API](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb)  
+Each member of the group was responsible for a different commodity.  We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the [Quandl API](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb) The link describes the API call. 
 
 ## Technical Report
 
