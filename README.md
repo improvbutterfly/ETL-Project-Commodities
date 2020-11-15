@@ -9,6 +9,9 @@ Commodities are economic goods that hold physical and functional value and have 
 <br>We decided to focus our ETL project on our nation's most popular commodities, since they are in essence extracted and transformed themselves!</br>
 <br>We will be 'ETL-ing' our data on the following commodities: **Precious Metals, Natural Gas, and Agriculture staples including Livestock and Crops.**</br>
 
+## Obtaining Data 
+
+People obtained different data. We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the Quandl API. 
 
 ## Technical Report
 
@@ -20,11 +23,18 @@ We chose to use a PostgreSQL database for our collected data.
 ![ERD part 1](images/commodities_db_ERD_part1.png)
 ![ERD part 2](images/commodities_db_ERD_part2.png)
 
+### Loading Information into Postgres
+
+From all the individual CSVs, from websites and from the Quandl API [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynbhttp://github.com) 
+
+
 ### Accessing and Graphing Data
 
 ![Reading from the database](images/database_read_palmoil_rubber.png)
 ![Plotting Rubber and Palm Oil](images/palmoil_rubber.png)
+![Plotting Crude Oil and Stocks](images/Crude_oil_vs_ceo.png)
 
+Because we only used one database, any additional stock data was obtained from the RapidAPI was used
 
 ## Precious Metals:
 "In America, the streets are paved in Gold!" - Anonymous
