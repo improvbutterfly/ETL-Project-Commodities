@@ -26,7 +26,7 @@ We chose to use a PostgreSQL database for our collected data.
 
 ### Transformation and Loading Information into Postgres
 
-After the extraction proccess, we loaded each of the CSVS into a Postgres Admin. The CSVs had to be cleaned by dropping null values and pairing down the columns to the date and price. Since we were using a SQL database we needed to rename the columns to make sure the case and column name matched the Schema. The Jupyter Notebook can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
+After the extraction proccess, we loaded each of the CSVS into a Postgres Admin. The CSVs had to be cleaned by dropping null values and pairing down the columns to the date and price. Since we were using a SQL database we needed to rename the columns to make sure the case and column name matched the Schema. The Jupyter Notebook can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb).
 
 
 ### Accessing and Graphing Data
