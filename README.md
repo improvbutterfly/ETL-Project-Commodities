@@ -25,7 +25,7 @@ We chose to use a PostgreSQL database for our collected data.
 
 ### Loading Information into Postgres
 
-From all the individual CSVs, from websites and from the Quandl API [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynbhttp://github.com) 
+From all the individual CSVs, from websites and from the Quandl API [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
 
 
 ### Accessing and Graphing Data
