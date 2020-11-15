@@ -11,7 +11,7 @@ Commodities are economic goods that hold physical and functional value and have 
 
 ## Obtaining Data 
 
-People obtained different data. We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the Quandl API. 
+People obtained different data. We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the Q[Quandl API](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb)  
 
 ## Technical Report
 
@@ -23,9 +23,9 @@ We chose to use a PostgreSQL database for our collected data.
 ![ERD part 1](images/commodities_db_ERD_part1.png)
 ![ERD part 2](images/commodities_db_ERD_part2.png)
 
-### Loading Information into Postgres
+### Transformation and Loading Information into Postgres
 
-From all the individual CSVs, from websites and from the Quandl API [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
+After extracting the data from the websites and Quandl API, we loaded each of the CSVS into a Postgres Admin.  PGAdmin was used to create the Schema and to access the data to make sure they were loaded. [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
 
 
 ### Accessing and Graphing Data
