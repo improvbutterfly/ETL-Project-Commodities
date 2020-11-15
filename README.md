@@ -11,7 +11,8 @@ Commodities are economic goods that hold physical and functional value and have 
 
 ## Obtaining Data 
 
-Each member of the group was responsible for a different commodity.  We downloaded CSVs from economic and government websites.  Kaggle had data but it was not up to date, so to obtain metal and energy data, we used the [Quandl API](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb) The link describes the API call. 
+Each member of the group was responsible for a different commodity.  We downloaded CSVs from economic and government websites(Macrotrends.net, Tradingeconomics.com, Worldbank.org
+investing.com) We used the Quandl API to get metal and energy data.  The process can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb) 
 
 ## Technical Report
 
@@ -25,7 +26,7 @@ We chose to use a PostgreSQL database for our collected data.
 
 ### Transformation and Loading Information into Postgres
 
-After extracting the data from the websites and Quandl API, we loaded each of the CSVS into a Postgres Admin.  PGAdmin was used to create the Schema and to access the data to make sure they were loaded. [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
+After the extraction proccess, we loaded each of the CSVS into a Postgres Admin.  PGAdmin was used to create the Schema and to access the data to make sure they were loaded. [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
 
 
 ### Accessing and Graphing Data
@@ -34,7 +35,7 @@ After extracting the data from the websites and Quandl API, we loaded each of th
 ![Plotting Rubber and Palm Oil](images/palmoil_rubber.png)
 ![Plotting Crude Oil and Stocks](images/Crude_oil_vs_ceo.png)
 
-Because we only used one database, any additional stock data was obtained from the RapidAPI was used
+Because we only used one database, any additional stock data was obtained from the RapidAPI was used referenced [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/stocks_api/Rapid_API_Stock_Call.ipynb). 
 
 ## Precious Metals:
 "In America, the streets are paved in Gold!" - Anonymous
