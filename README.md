@@ -12,7 +12,7 @@ Commodities are economic goods that hold physical and functional value and have 
 ## Obtaining Data 
 
 Each member of the group was responsible for a different commodity.  We downloaded CSVs from economic and government websites(Macrotrends.net, Tradingeconomics.com, Worldbank.org
-investing.com) We used the Quandl API to get metal and energy data.  The process can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb) 
+investing.com). We used the Quandl API to get metal and energy data.  The process can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/writing/data/energy/Process/energy_api/Quandl_Energy_API.ipynb). 
 
 ## Technical Report
 
@@ -26,7 +26,7 @@ We chose to use a PostgreSQL database for our collected data.
 
 ### Transformation and Loading Information into Postgres
 
-After the extraction proccess, we loaded each of the CSVS into a Postgres Admin.  PGAdmin was used to create the Schema and to access the data to make sure they were loaded. [Jupyter Notebook](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
+After the extraction proccess, we loaded each of the CSVS into a Postgres Admin. The CSVs had to be cleaned by dropping null values and pairing down the columns to the date and price. Since we were using a SQL database we needed to rename the columns to make sure the case and column name matched the Schema. The Jupyter Notebook can be found [here](https://github.com/improvbutterfly/ETL-Project-Commodities/blob/main/database/Database_Insertion.ipynb)
 
 
 ### Accessing and Graphing Data
